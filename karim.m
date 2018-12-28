@@ -137,7 +137,7 @@ resf=perform_wavelet_transf(wt,jmin,-1,optimi);
 
 %%
 %3.2
-rho = .7;
+rho = .3;
 Lambda = rand(n,n)>rho;
 Phi = @(f)f.*Lambda;
 y = Phi(f0);
